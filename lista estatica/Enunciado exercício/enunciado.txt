@@ -1,4 +1,0 @@
-crie 3 metodos, o metodo main, o metodo gerenciar e o metodo calcular
-o metodo main, chame o metodo gerenciar
-no metodo gerenciar, crie uma lista estatica com 5 espaços, preencha cada um dos espaços com o retorno do metodo calcular, passando sempre a base 2 e o expoente sendo o indice do espaço (ex, no espaço de indice 0 devera ser 2 elevado a 0, no espaço de indice 2 devera ser 2 elevado a 2) e por fim mostre na tela o valor do indice 3 da lista
-no metodo calcular, receba dois argumentos, a base e o expoente, então retorne o resultado da base elevada ao expoente

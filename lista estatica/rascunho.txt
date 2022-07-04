@@ -1,0 +1,43 @@
+#include <iostream>
+#include <string>
+#include <sstream>
+using namespace std; 
+
+/* run this program using the console pauser or add your own getch, system("pause") or input loop */
+
+int calcular (int b, int e){
+	int v=b;
+	for (int i=0; i<e;i++ ){
+		int r=b*v;
+		v=r;
+		return r;
+	}
+	
+}
+
+void gerenciar(){
+	int lista[5];
+	int var;
+	std::stringstream ss;
+	string s;
+	for (int i=4;i<5;i++){
+		lista[i]=calcular(2,i);
+		i=i+1;
+	}
+	
+	var=lista[3];
+	ss<<var<< "\n";
+	s=ss.str();
+	cout<<s; 
+	
+	
+}
+
+int main() {
+	gerenciar ();
+	system ("pause");
+	return 0;
+	
+}
+
+
